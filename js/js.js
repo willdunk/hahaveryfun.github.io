@@ -10,6 +10,8 @@ function navClick()
   {
     if(navOut())
     {
+      //return to normal
+      $(this).attr("src", "images/icons/list.png")
       $("#nav-wrapper").animate
       (
         {width:"50px"}
@@ -18,6 +20,8 @@ function navClick()
     }
     else
     {
+      //extend out
+      $(this).attr("src", "images/icons/arrow_left.png")
       $("#nav-wrapper").animate
       (
         {width:"15%"}
@@ -29,51 +33,29 @@ function navClick()
 
 function navHover()
 {
-  $("#nav-button").hover
-  (
-    function()
-    {
-      $(this).css("display", "none");
-      if(navOut())
-      {
-        $(this).attr("src","../images/icons/arrow_left.png");
-      }
-      else
-      {
-        $(this).attr("src","../images/icons/arrow_right.png");
-      }
-      $(this).fadeIn(200);
-    },
-    function()
-    {
-      $(this).css("display", "none");
-      $(this).attr("src","../images/icons/list.png");
-      $(this).fadeIn(200);
-    }
-  );
+  //change to a hover inverse color effect
 }
 
 function spread()
 {
+  $("#content-wrapper").animate
+  ({
+    left: ($(document).width() * .15)-50
+  });
+
+  //rotation for each spreadable element
   $.each($(".spreadable"),function()
   {
-    var element = $(this);
-    var coordinates = $(this).position();
-    //storing of left coordinate in data
-    $(this).data("left", coordinates.left);
-    //calculating of shifting and rotation constants
-    var xshift =  ((($(document).width() * .15) - 50) + (coordinates.left))
-    var rotation = (45*((($(document).height())/2)-coordinates.top))/(($(document).height())/2)
+    var coordinates = $(this).offset();
+    coordinates.top += $(this).height()/2;
+    //storing of left and top coordinate in data
+    var rotation = (45*((($(document).height())/2)-coordinates.top))/(($(document).height())/2);
     var rotationmultiplier = coordinates.left/$(document).width();
-    rotation = rotationmultiplier * rotation;
-    rotation = rotation * -1
+    rotation = (rotationmultiplier * rotation)*-1;
     $(this).data("rotation", rotation);
 
-    //animation on shift and rotation
-    $(this).animate
-    ({
-        left:xshift,
-    });
+    // animation on rotation
+    var element = $(this);
     $({deg: 0}).animate({deg: rotation}, 
     {
       duration: 400,
@@ -91,14 +73,14 @@ function spread()
 
 function shrink()
 {
+  $("#content-wrapper").animate
+  ({
+    left:0
+  });
   $.each($(".spreadable"),function()
   {
-    var element = $(this);
     var currentrotation = $(this).css("transform");
-    $(this).animate
-    ({
-      left:$(this).data("left")
-    });
+    var element = $(this);
     $({deg: $(this).data("rotation")}).animate({deg: 0}, 
     {
       duration: 400,
@@ -114,8 +96,32 @@ function shrink()
   $("#shadowbox").fadeOut(400);
 }
 
+function layOutNames()
+{
+  //helper function to create effect on the name
+  var easing = "easeOutBounce";
+  var time = 1000;
+  $('#william').hide();
+  $('#eric').hide();
+  $('#dunkerley').hide();
+  $('#william').slideDown(1200, easing, function() 
+  {
+    //recursive for each navitem
+  });
+  $('#eric').slideDown(1000, easing, function() 
+    {
+      //recursive for each navitem
+
+    });
+        $('#dunkerley').slideDown(800, easing, function() 
+      {
+        
+      });
+}
+
 $(document).ready(function()
 {
   // navHover();
+  layOutNames();
   navClick();
 });
