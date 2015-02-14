@@ -4,20 +4,28 @@
 		"selected_items":
 		[
 			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"c",
+				"coordinates"
+			],
+			[
+				"ro",
+				"rotation"
+			],
+			[
 				"fade",
 				"fadeTo"
 			],
 			[
-				"ro",
-				"rotationmultiplier"
-			],
-			[
 				"rot",
 				"rotation"
-			],
-			[
-				"mar",
-				"margin-right"
 			],
 			[
 				"marg",
@@ -211,30 +219,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "index.html",
-			"settings":
-			{
-				"buffer_size": 1378,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "css/style.css",
-			"settings":
-			{
-				"buffer_size": 1015,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "js/js.js",
-			"settings":
-			{
-				"buffer_size": 2209,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -261,10 +245,17 @@
 	"file_history":
 	[
 		"/C/Users/William/Documents/GitHub/hahaveryfun.github.io/index.html",
+		"/C/Users/William/Dropbox/WebProjects/Valentine/js.js",
+		"/C/Users/William/Dropbox/WebProjects/Valentine/style.css",
+		"/C/Users/William/Dropbox/WebProjects/Valentine/index.html",
+		"/C/Users/William/Documents/GitHub/hahaveryfun.github.io/css/style.css",
+		"/C/Users/William/Documents/GitHub/hahaveryfun.github.io/js/js.js",
+		"/C/Users/William/Dropbox/Stevens Year 1/CS 284/Java/recitation04/ArraySearchTest.java",
+		"/C/Users/William/Dropbox/Stevens Year 1/CS 284/Java/recitation04/ArraySearch.java",
+		"/C/Users/William/Dropbox/Stevens Year 1/CS 284/Java/Lab 4/ArraySearchTest.java",
+		"/C/Users/William/Dropbox/Stevens Year 1/CS 284/Java/Lab 4/ArraySearch.java",
 		"/C/Users/William/Dropbox/WebProjects/RockRidgeHunting/js/js.js",
 		"/C/Users/William/Dropbox/Stevens Year 1/CS 284/Java/Lab 3/lab3.java",
-		"/C/Users/William/Documents/GitHub/hahaveryfun.github.io/js/js.js",
-		"/C/Users/William/Documents/GitHub/hahaveryfun.github.io/css/style.css",
 		"/C/Users/William/Dropbox/WebProjects/RockRidgeHunting/home/index.php",
 		"/C/Users/William/Dropbox/Stevens Year 1/CS 284/Java/Lab 2/ArithmeticProg.java",
 		"/C/Users/William/Dropbox/Stevens Year 1/CS 284/Java/Lab 2/NumberTest.java",
@@ -309,6 +300,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"xshift",
 			"penis",
 			").\n",
 			";\n",
@@ -333,102 +325,18 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "index.html",
-					"settings":
-					{
-						"buffer_size": 1378,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								922,
-								922
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		},
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 1,
-					"file": "css/style.css",
-					"settings":
-					{
-						"buffer_size": 1015,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								579,
-								579
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 210.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		},
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 2,
-					"file": "js/js.js",
-					"settings":
-					{
-						"buffer_size": 2209,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								379,
-								379
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -466,8 +374,8 @@
 		"cols":
 		[
 			0.0,
-			0.352916666667,
-			0.52875,
+			0.33,
+			0.66,
 			1.0
 		],
 		"rows":
@@ -498,7 +406,7 @@
 		],
 		"width": 0.0
 	},
-	"show_minimap": true,
+	"show_minimap": false,
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": false,
