@@ -219,6 +219,36 @@
 	},
 	"buffers":
 	[
+		{
+			"contents": "<!DOCTYPE html>\n<html lang=\"en\">\n	<head>\n		<meta charset=\"utf-8\">\n    	<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    	<title>Valentine's Day</title>\n    	<!-- <link rel=\"shortcut icon\" type=\"image/png\" href=\"../images/favicon.png\"/> -->\n    	<link href='http://fonts.googleapis.com/css?family=Dosis:500|Roboto|Raleway' rel='stylesheet' type='text/css'>\n    	<link rel=\"stylesheet\" href=\"https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css\" />\n    	<link href=\"style.css\" rel=\"stylesheet\">\n	</head>\n	<body>\n		<script src=\"https://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js\"></script>\n		<script src=\"https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js\"></script>\n		<script src=\"js.js\"></script>\n\n		<section id=\"main\">\n			<div id=\"cover\">\n\n			</div>\n			<div id=\"inside\">\n				\n			</div>\n		</section>\n		\n	</body>\n</html>",
+			"file": "/C/Users/William/Dropbox/WebProjects/Valentine/index.html",
+			"file_size": 852,
+			"file_write_time": 130684160880469953,
+			"settings":
+			{
+				"buffer_size": 894,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "*\n{\n	margin: 0px;\n	border: 0px;\n	padding: 0px;\n}\n\n#main \n{\n	position: absolute;\n}",
+			"file": "/C/Users/William/Dropbox/WebProjects/Valentine/style.css",
+			"file_size": 53,
+			"file_write_time": 130684160466620341,
+			"settings":
+			{
+				"buffer_size": 81,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/William/Dropbox/WebProjects/Valentine/js.js",
+			"settings":
+			{
+				"buffer_size": 36,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -245,9 +275,6 @@
 	"file_history":
 	[
 		"/C/Users/William/Documents/GitHub/hahaveryfun.github.io/index.html",
-		"/C/Users/William/Dropbox/WebProjects/Valentine/js.js",
-		"/C/Users/William/Dropbox/WebProjects/Valentine/style.css",
-		"/C/Users/William/Dropbox/WebProjects/Valentine/index.html",
 		"/C/Users/William/Documents/GitHub/hahaveryfun.github.io/css/style.css",
 		"/C/Users/William/Documents/GitHub/hahaveryfun.github.io/js/js.js",
 		"/C/Users/William/Dropbox/Stevens Year 1/CS 284/Java/recitation04/ArraySearchTest.java",
@@ -325,18 +352,100 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/C/Users/William/Dropbox/WebProjects/Valentine/index.html",
+					"settings":
+					{
+						"buffer_size": 894,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								851,
+								851
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		},
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 1,
+					"file": "/C/Users/William/Dropbox/WebProjects/Valentine/style.css",
+					"settings":
+					{
+						"buffer_size": 81,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								81,
+								81
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		},
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 2,
+					"file": "/C/Users/William/Dropbox/WebProjects/Valentine/js.js",
+					"settings":
+					{
+						"buffer_size": 36,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								32,
+								32
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],

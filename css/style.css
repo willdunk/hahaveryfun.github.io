@@ -1,0 +1,130 @@
+/*font-family: 'Dosis', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Raleway', sans-serif;*/
+
+/*body: #DE3E00
+nav: #5E2F1C*/
+
+*
+{
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+}
+
+body
+{
+	font-family: 'Dosis', sans-serif;
+}
+
+.icons
+{
+	-webkit-filter: invert(100%);
+}
+
+#nav-section
+{
+	height: 100%;
+	width: 50px;
+}
+
+#nav-wrapper
+{
+	position: absolute;
+	height: 100%;
+	width: 50px;
+	background-color: #447EE3;
+	box-shadow: 3px 0px 5px #4F6799;
+	z-index: 4;
+}
+
+#nav-vertical
+{
+	width: 100%;
+}
+
+#nav-button
+{
+	cursor: pointer;
+	display: block;
+	width: 30px;
+	height: auto;
+	margin: 10px auto;
+}
+
+#shadowbox
+{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	z-index: 3;
+	opacity: 0;
+	background-color: black;
+}
+
+.spreadable
+{
+	position: relative;
+}
+
+#content-section
+{
+	position: absolute;
+	float: right;
+	margin-left: 50px;
+	width: calc(100% - 50px);
+	height: 100%;
+	overflow-x: hidden;
+	color: white;
+}
+
+#content-wrapper
+{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-color: #334364;
+	color: white;
+	overflow-x: hidden;
+}
+
+#introduction
+{
+	display: inline-block;
+	margin-top: 10%;
+	margin-left: 10%;
+}
+
+#hey
+{
+	font-size: 2em;
+}
+
+#william
+{
+	font-size: 3.5em;
+}
+
+#eric
+{
+	font-size: 3.5em;
+}
+
+#dunkerley
+{
+	font-size: 3.5em;
+}
+
+/*nonspreadable elements go here*/
+.nonspreadable
+{
+	position: absolute;
+	z-index:2;
+}
+
+#isolated-portrait
+{
+	height: 80%;
+	bottom: 0px;
+	right: 0px;
+}

@@ -1,0 +1,415 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"c",
+				"coordinates"
+			],
+			[
+				"ro",
+				"rotation"
+			],
+			[
+				"fade",
+				"fadeTo"
+			],
+			[
+				"rot",
+				"rotation"
+			],
+			[
+				"marg",
+				"margin-right"
+			],
+			[
+				"nav",
+				"navOut"
+			],
+			[
+				"nav-",
+				"nav-button"
+			],
+			[
+				"n",
+				"nInt"
+			],
+			[
+				"p",
+				"position"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"ma",
+				"max-width"
+			],
+			[
+				"images",
+				"imagesrenamed"
+			],
+			[
+				"ind",
+				"indexToDelete"
+			],
+			[
+				"in",
+				"indexToDelete"
+			],
+			[
+				"full",
+				"fullsizeimage"
+			],
+			[
+				"dele",
+				"deletefullsizeimage"
+			],
+			[
+				"las",
+				"lastUsedRandom"
+			],
+			[
+				"rand",
+				"randomIndex"
+			],
+			[
+				"sli",
+				"slideshowBackground"
+			],
+			[
+				"fa",
+				"fadeIn"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"bo",
+				"border-radius"
+			],
+			[
+				"for",
+				"forecastwrapper"
+			],
+			[
+				"app",
+				"appendedLoadingThumb"
+			],
+			[
+				"appen",
+				"append"
+			],
+			[
+				"lo",
+				"loadingfullsizeimage"
+			],
+			[
+				"cont",
+				"contain"
+			],
+			[
+				"hid",
+				"hideFooterOnScroll"
+			],
+			[
+				"new",
+				"newLink"
+			],
+			[
+				"an",
+				"anchordownloadfullsizeimage"
+			],
+			[
+				"dow",
+				"downloadfullsizeimage"
+			],
+			[
+				"data-",
+				"data-link"
+			],
+			[
+				"st",
+				"startingIndex"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"next",
+				"nextIndex"
+			],
+			[
+				"nex",
+				"nextIndex"
+			],
+			[
+				"star",
+				"startingIndex"
+			],
+			[
+				"append",
+				"appendedimage"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"gallery",
+				"gallerydiv"
+			],
+			[
+				"hover",
+				"hoveredElement"
+			],
+			[
+				"cl",
+				"clickedElement"
+			],
+			[
+				"num",
+				"numberOfImagesLeft"
+			],
+			[
+				"max",
+				"maxImages"
+			],
+			[
+				"get",
+				"getElementsByClassName"
+			],
+			[
+				"hig",
+				"highestIndex"
+			],
+			[
+				"low",
+				"lowestIndex"
+			],
+			[
+				"hi",
+				"highestIndex"
+			],
+			[
+				"galler",
+				"gallerydiv"
+			],
+			[
+				"h",
+				"highestIndex"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/William/Documents/GitHub/hahaveryfun.github.io/index.html",
+		"/C/Users/William/Dropbox/WebProjects/Valentine/js.js",
+		"/C/Users/William/Dropbox/WebProjects/Valentine/style.css",
+		"/C/Users/William/Dropbox/WebProjects/Valentine/index.html",
+		"/C/Users/William/Documents/GitHub/hahaveryfun.github.io/css/style.css",
+		"/C/Users/William/Documents/GitHub/hahaveryfun.github.io/js/js.js",
+		"/C/Users/William/Dropbox/Stevens Year 1/CS 284/Java/recitation04/ArraySearchTest.java",
+		"/C/Users/William/Dropbox/Stevens Year 1/CS 284/Java/recitation04/ArraySearch.java",
+		"/C/Users/William/Dropbox/Stevens Year 1/CS 284/Java/Lab 4/ArraySearchTest.java",
+		"/C/Users/William/Dropbox/Stevens Year 1/CS 284/Java/Lab 4/ArraySearch.java",
+		"/C/Users/William/Dropbox/WebProjects/RockRidgeHunting/js/js.js",
+		"/C/Users/William/Dropbox/Stevens Year 1/CS 284/Java/Lab 3/lab3.java",
+		"/C/Users/William/Dropbox/WebProjects/RockRidgeHunting/home/index.php",
+		"/C/Users/William/Dropbox/Stevens Year 1/CS 284/Java/Lab 2/ArithmeticProg.java",
+		"/C/Users/William/Dropbox/Stevens Year 1/CS 284/Java/Lab 2/NumberTest.java",
+		"/C/Users/William/Dropbox/Stevens Year 1/CS 284/Java/Lab 2/main.java",
+		"/C/Users/William/Dropbox/Stevens Year 1/CS 284/Java/hello.java",
+		"/C/Users/William/Dropbox/WebProjects/RockRidgeHunting/php/photodeletescript.php",
+		"/C/Users/William/Dropbox/WebProjects/RockRidgeHunting/php/photouploadscript.php",
+		"/C/Users/William/Dropbox/WebProjects/RockRidgeHunting/js/galleryconstructor.js",
+		"/C/Users/William/Dropbox/WebProjects/RockRidgeHunting/css/style.css",
+		"/C/Users/William/Dropbox/WebProjects/RockRidgeHunting/gallery/index.php",
+		"/C/Users/William/Dropbox/WebProjects/RockRidgeHunting/weather/index.php",
+		"/C/Users/William/Dropbox/WebProjects/RockRidgeHunting/upload/index.php",
+		"/C/Users/William/Dropbox/WebProjects/RockRidgeHunting/links/index.php",
+		"/C/Users/William/Dropbox/WebProjects/RockRidgeHunting/calendar/index.php",
+		"/C/Users/William/Dropbox/WebProjects/RockRidgeHunting/blog/index.php",
+		"/C/Users/William/Dropbox/WebProjects/RockRidgeHunting/php/photocount.php",
+		"/C/Users/William/Dropbox/WebProjects/RockRidgeHunting/php/checkuseradminscript.php",
+		"/C/Users/William/Dropbox/WebProjects/RockRidgeHunting/php/sessioncheck.php",
+		"/C/Users/William/Dropbox/WebProjects/RockRidgeHunting/php/login.php",
+		"/C/Users/William/Dropbox/WebProjects/RockRidgeHunting/admin/index.php",
+		"/C/Users/William/Dropbox/WebProjects/RockRidgeHunting/php/userdata.php",
+		"/C/Users/William/Dropbox/WebProjects/RockRidgeHunting/php/passwords.php",
+		"/C/Users/William/Dropbox/WebProjects/RockRidgeHunting/php/checkuserdisablescript.php",
+		"/C/Users/William/Dropbox/WebProjects/RockRidgeHunting/php/photocountforbackground.php",
+		"/C/Users/William/Dropbox/WebProjects/RockRidgeHunting/php/upload.php",
+		"/C/Users/William/Dropbox/WebProjects/RockRidgeHunting/js/weatherconstructor.js",
+		"/C/Users/William/Dropbox/WebProjects/RockRidgeHunting/js/weather.js"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"xshift",
+			"penis",
+			").\n",
+			";\n",
+			"white",
+			"src",
+			"background",
+			"leftmonospacearrow"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			],
+			[
+				2,
+				0,
+				3,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.33,
+			0.66,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": false,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}
