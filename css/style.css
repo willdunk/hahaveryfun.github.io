@@ -20,6 +20,7 @@ body
 .icons
 {
 	-webkit-filter: invert(100%);
+	filter: invert(100%);
 }
 
 #nav-section
@@ -51,6 +52,36 @@ body
 	height: auto;
 	margin: 10px auto;
 }
+
+#nav-content
+{
+	text-align: center;
+	color: white;
+}
+
+.nav-item
+{
+	visibility: hidden;
+	font-size: 1.5em;
+}
+
+.nav-item-extended
+{
+	visibility: visible;
+	-webkit-animation: shiftNavItem .4s; /* Chrome, Safari, Opera */
+	-webkit-animation-timing-function: ease-out;
+}
+
+.nav-item:hover
+{ 
+	cursor: pointer;
+	opacity: .5;
+	font-size: 1.75em;
+	font-weight: bold;
+    -webkit-animation: hoverNavItem .2s;
+    -webkit-animation-timing-function: ease-out;
+}
+
 
 #shadowbox
 {
@@ -90,9 +121,8 @@ body
 
 #introduction
 {
+	padding: 30px;
 	display: inline-block;
-	margin-top: 10%;
-	margin-left: 10%;
 }
 
 #hey
@@ -103,16 +133,22 @@ body
 #william
 {
 	font-size: 3.5em;
+	-webkit-animation: bounceIntroText 1.2s; /* Chrome, Safari, Opera */
+	-webkit-animation-timing-function: linear;
 }
 
 #eric
 {
 	font-size: 3.5em;
+	-webkit-animation: bounceIntroText 1s; /* Chrome, Safari, Opera */
+	-webkit-animation-timing-function: linear;
 }
 
 #dunkerley
 {
 	font-size: 3.5em;
+	-webkit-animation: bounceIntroText .8s; /* Chrome, Safari, Opera */
+	-webkit-animation-timing-function: linear;
 }
 
 /*nonspreadable elements go here*/
@@ -127,4 +163,45 @@ body
 	height: 80%;
 	bottom: 0px;
 	right: 0px;
+}
+
+/*Animations Below*/
+@-webkit-keyframes bounceIntroText
+{
+    0%   {font-size: 0em}
+    10%  {font-size: calc(3.5em * .03)}
+    20%  {font-size: calc(3.5em * .15)}
+    30%  {font-size: calc(3.5em * .30)}
+    40%  {font-size: calc(3.5em * .80)}
+    50%  {font-size: calc(3.5em * .70)}
+    60%  {font-size: calc(3.5em * .97)}
+    70%  {font-size: calc(3.5em * .80)}
+    80%  {font-size: calc(3.5em * .99)}
+    90%  {font-size: calc(3.5em * .90)}
+    100% {font-size: 3.5em}
+}
+
+/* Standard syntax */
+/*@keyframes bounceText
+{
+	0%   {color: red;}
+    25%  {color: yellow;}
+    50%  {color: blue;}
+    75%  {color: green;}
+    100% {color: red;}
+}
+*/
+
+@-webkit-keyframes shiftNavItem
+{
+    0%   {margin-left: -50px; opacity: 0;}
+    50%  {margin-left: 0px;}
+    100% {opacity: 1;} 
+}
+
+@-webkit-keyframes hoverNavItem
+{
+    0%   {margin-right: -50px; opacity: 1; font-size: 1.75em;}
+    50%  {margin-left: 0px; font-size: 1.75em;}
+    100% {opacity: .5;} 
 }

@@ -17,6 +17,7 @@ function navClick()
         {width:"50px"}
       );
       shrink();
+      $(".nav-item").toggleClass("nav-item-extended");
     }
     else
     {
@@ -27,6 +28,7 @@ function navClick()
         {width:"15%"}
       );
       spread();
+      $(".nav-item").toggleClass("nav-item-extended");
     }
   });
 }
@@ -122,6 +124,6 @@ function layOutNames()
 $(document).ready(function()
 {
   // navHover();
-  layOutNames();
+  // layOutNames();
   navClick();
 });
