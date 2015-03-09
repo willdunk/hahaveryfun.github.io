@@ -4,8 +4,92 @@
 		"selected_items":
 		[
 			[
+				"remove",
+				"remove"
+			],
+			[
+				"pr",
+				"println"
+			],
+			[
+				"ro",
+				"rotationmultiplier"
+			],
+			[
+				"roatio",
+				"rotationmultiplier"
+			],
+			[
+				"project",
+				"project-card"
+			],
+			[
+				"pro",
+				"projectCardsVerticalAlign"
+			],
+			[
+				"trans",
+				"transform"
+			],
+			[
+				"tra",
+				"transformendingarray"
+			],
+			[
+				"ma",
+				"max-height"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"spre",
+				"spreadAnimation"
+			],
+			[
+				"bo",
+				"border-left"
+			],
+			[
 				"mar",
-				"margin-top"
+				"margin"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"border-c",
+				"border-color"
+			],
+			[
+				"bord",
+				"border-top"
+			],
+			[
+				"fade",
+				"fadeOut"
+			],
+			[
+				"fo",
+				"font-weight"
+			],
+			[
+				"nav",
+				"nav-item"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"in",
+				"inline-block"
 			],
 			[
 				"font",
@@ -16,24 +100,8 @@
 				"coordinates"
 			],
 			[
-				"ro",
-				"rotation"
-			],
-			[
-				"fade",
-				"fadeTo"
-			],
-			[
 				"rot",
 				"rotation"
-			],
-			[
-				"marg",
-				"margin-right"
-			],
-			[
-				"nav",
-				"navOut"
 			],
 			[
 				"nav-",
@@ -56,19 +124,11 @@
 				"min-width"
 			],
 			[
-				"ma",
-				"max-width"
-			],
-			[
 				"images",
 				"imagesrenamed"
 			],
 			[
 				"ind",
-				"indexToDelete"
-			],
-			[
-				"in",
 				"indexToDelete"
 			],
 			[
@@ -98,10 +158,6 @@
 			[
 				"backg",
 				"background-color"
-			],
-			[
-				"bo",
-				"border-radius"
 			],
 			[
 				"for",
@@ -220,32 +276,10 @@
 	"buffers":
 	[
 		{
-			"contents": "<!DOCTYPE html>\n<html lang=\"en\">\n	<head>\n		<meta charset=\"utf-8\">\n    	<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    	<title>Valentine's Day</title>\n    	<!-- <link rel=\"shortcut icon\" type=\"image/png\" href=\"../images/favicon.png\"/> -->\n    	<link href='http://fonts.googleapis.com/css?family=Dosis:500|Roboto|Raleway' rel='stylesheet' type='text/css'>\n    	<link rel=\"stylesheet\" href=\"https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css\" />\n    	<link href=\"style.css\" rel=\"stylesheet\">\n	</head>\n	<body>\n		<script src=\"https://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js\"></script>\n		<script src=\"https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js\"></script>\n		<script src=\"js.js\"></script>\n\n		<section id=\"main\">\n			<div id=\"cover\">\n\n			</div>\n			<div id=\"inside\">\n				\n			</div>\n		</section>\n		\n	</body>\n</html>",
-			"file": "/C/Users/William/Dropbox/WebProjects/Valentine/index.html",
-			"file_size": 852,
-			"file_write_time": 130684160880469953,
+			"file": "/C/Users/William/Dropbox/Stevens Year 1/CS 284/Java/Assignment 2/DLClist.java",
 			"settings":
 			{
-				"buffer_size": 894,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "*\n{\n	margin: 0px;\n	border: 0px;\n	padding: 0px;\n}\n\n#main \n{\n	position: absolute;\n}",
-			"file": "/C/Users/William/Dropbox/WebProjects/Valentine/style.css",
-			"file_size": 53,
-			"file_write_time": 130684160466620341,
-			"settings":
-			{
-				"buffer_size": 81,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Users/William/Dropbox/WebProjects/Valentine/js.js",
-			"settings":
-			{
-				"buffer_size": 36,
+				"buffer_size": 7459,
 				"line_ending": "Windows"
 			}
 		}
@@ -274,9 +308,18 @@
 	},
 	"file_history":
 	[
-		"/C/Users/William/Documents/GitHub/hahaveryfun.github.io/index.html",
-		"/C/Users/William/Documents/GitHub/hahaveryfun.github.io/css/style.css",
+		"/C/Users/William/Dropbox/Stevens Year 1/CS 284/Java/Assignment 1/Triangle.java",
+		"/C/Users/William/Dropbox/Stevens Year 1/CS 284/Java/Assignment 2/DLCList.java",
+		"/C/Users/William/Dropbox/Stevens Year 1/CS 284/Java/Lab 6/AddNum.java",
 		"/C/Users/William/Documents/GitHub/hahaveryfun.github.io/js/js.js",
+		"/C/Users/William/Documents/GitHub/hahaveryfun.github.io/css/style.css",
+		"/C/Users/William/Documents/GitHub/hahaveryfun.github.io/projects/index.html",
+		"/C/Users/William/Documents/GitHub/hahaveryfun.github.io/index.html",
+		"/C/Users/William/Dropbox/WebProjects/Practice/js/js2.js",
+		"/C/Users/William/Dropbox/WebProjects/Practice/js/js.js",
+		"/C/Users/William/Dropbox/WebProjects/Valentine/index.html",
+		"/C/Users/William/Dropbox/WebProjects/Valentine/style.css",
+		"/C/Users/William/Dropbox/WebProjects/Valentine/js.js",
 		"/C/Users/William/Dropbox/Stevens Year 1/CS 284/Java/recitation04/ArraySearchTest.java",
 		"/C/Users/William/Dropbox/Stevens Year 1/CS 284/Java/recitation04/ArraySearch.java",
 		"/C/Users/William/Dropbox/Stevens Year 1/CS 284/Java/Lab 4/ArraySearchTest.java",
@@ -327,6 +370,13 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"size",
+			"element",
+			"      \n",
+			"p",
+			"four",
+			";}",
+			"height",
 			"xshift",
 			"penis",
 			").\n",
@@ -342,6 +392,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"font-size"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -357,88 +408,24 @@
 			[
 				{
 					"buffer": 0,
-					"file": "/C/Users/William/Dropbox/WebProjects/Valentine/index.html",
+					"file": "/C/Users/William/Dropbox/Stevens Year 1/CS 284/Java/Assignment 2/DLClist.java",
 					"settings":
 					{
-						"buffer_size": 894,
+						"buffer_size": 7459,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								851,
-								851
+								186,
+								186
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"syntax": "Packages/Java/Java.tmLanguage",
 							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
-				{
-					"buffer": 1,
-					"file": "/C/Users/William/Dropbox/WebProjects/Valentine/style.css",
-					"settings":
-					{
-						"buffer_size": 81,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								81,
-								81
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
-				{
-					"buffer": 2,
-					"file": "/C/Users/William/Dropbox/WebProjects/Valentine/js.js",
-					"settings":
-					{
-						"buffer_size": 36,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								32,
-								32
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -466,25 +453,11 @@
 				0,
 				1,
 				1
-			],
-			[
-				1,
-				0,
-				2,
-				1
-			],
-			[
-				2,
-				0,
-				3,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.33,
-			0.66,
 			1.0
 		],
 		"rows":
@@ -496,7 +469,7 @@
 	"menu_visible": false,
 	"replace":
 	{
-		"height": 0.0
+		"height": 62.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -515,7 +488,7 @@
 		],
 		"width": 0.0
 	},
-	"show_minimap": false,
+	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": false,
