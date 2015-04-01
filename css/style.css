@@ -245,6 +245,24 @@ a:link, a:visited, a:hover, a:active
 	font-size: 1.25em;
 }
 
+#about-top
+{
+	width: 100%;
+}
+
+#about-top-image
+{
+	float: left;
+	width: 30%;
+	height: auto;
+}
+
+#about-top-text
+{
+	float: right;
+	width: 50%;
+}
+
 /*nonspreadable elements go here*/
 .nonspreadable
 {
