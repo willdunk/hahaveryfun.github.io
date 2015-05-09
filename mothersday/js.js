@@ -25,7 +25,7 @@ function switchcards()
 	{
 		$("#inside").fadeIn(1000, function()
 		{
-			$("heartwrapper").fadeIn(500);
+			$("#heartwrapper").fadeIn(500);
 			inside();
 		});
 	});
@@ -35,7 +35,7 @@ function inside()
 {
 	$(function(){
       	$("#insidetext").typed({
-       		strings: ["Happy Mother's Day! ^5000","From Eric"],
+       		strings: ["Happy Mother's Day! ^5000","Love, Eric"],
        		typeSpeed: 5
       	});
   	});
