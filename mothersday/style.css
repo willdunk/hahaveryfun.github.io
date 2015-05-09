@@ -28,8 +28,8 @@
 	right: 0;
 	left: 0;
 	margin: auto;
-	background-color: #B9113E;
-	color:white;
+	background-color: #D1FFB2;
+	color:#F700AD;
 
 	font-family: 'Cutive Mono' ;
 	font-weight: bold;
@@ -44,11 +44,13 @@
     box-shadow: 25px 25px 20px black;
 }
 
-#covertext
+#coverimage
 {
-    width: 50%;
-    margin: auto auto;
-    margin-top: 40%;
+    width: 85%;
+    height: auto;
+    border-radius: 50px;
+    top: 100px;
+    margin-top: 100px;
 }
 
 #open
@@ -70,8 +72,8 @@
 	right: 0;
 	left: 0;
 	margin: auto;
-	background-color: #AA3AB9;
-	color:white;
+	background-color: #0DFFE6;
+	color:#F700AD;
 
 	font-family: 'Pacifico', cursive;
 	font-size: 6em;

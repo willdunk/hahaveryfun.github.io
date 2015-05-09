@@ -14,12 +14,6 @@ function cover()
 	$("#open").hide();
 	$("#cover").fadeIn(1000, function()
 	{
-		$(function(){
-      		$("#covertext").typed({
-       			strings: ["deer", "Dear Cihtin", "Dear Christina,"],
-       			typeSpeed: 0
-      		});
-  		});
   		$("#open").fadeIn(1000);
 	});
 
@@ -41,7 +35,7 @@ function inside()
 {
 	$(function(){
       	$("#insidetext").typed({
-       		strings: ["Happy Valentine's Day! ^5000","From Will"],
+       		strings: ["Happy Mother's Day! ^5000","From Eric"],
        		typeSpeed: 5
       	});
   	});
