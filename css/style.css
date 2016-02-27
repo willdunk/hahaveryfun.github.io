@@ -124,12 +124,56 @@ a:link, a:visited, a:hover, a:active
 	background-color: #334364;
 	color: white;
 	overflow-x: hidden;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
 }
 
 #introduction
 {
 	padding: 30px;
-	display: inline-block;
+	min-width: 280px;
+}
+
+#about-wrapper
+{
+	width: 60%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#about-card-wrapper
+{
+	max-height: 60%;
+	margin-top: 10%;
+}
+
+#about-card-image
+{
+	max-width:30%;
+	max-height:10%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#about-card
+{
+	background-color: white;
+	box-shadow: 0px 0px 2px 2px #4F6799;
+  	color:#334364;
+  	font-size: 1em;
+  	border-radius: 5px;
+  	border-width: 2px;
+  	border-style: solid;
+  	border-color: #334364;
+  	padding: 10px;
+  	display: block;
+    margin-left: auto;
+    margin-right: auto;
+  	min-width: 65%;
+  	max-width: 600px;
 }
 
 #hey
@@ -158,109 +202,10 @@ a:link, a:visited, a:hover, a:active
 	-webkit-animation-timing-function: linear;
 }
 
-#cards-wrapper
+#about-text
 {
-	position: relative;
-	height: 100%;
-	width: 100%;
-	overflow-y:hidden;
-	overflow-x: hidden;
-}
-
-.project-intro
-{
-	position: absolute;
-  	left: 50%;
-  	top: 50%;
-  	-webkit-transform: translate(-50%, -50%);
-}
-
-.project-intro:hover
-{
-	cursor: pointer;
-}
-
-.project-intro-hidden
-{
-	-webkit-animation: hideMe .5s forwards;
-}
-
-.project-shadowbox
-{
-	width: 100%;
-	height: 100%;
-	opacity: .90;
-	background-color: black;
-}
-
-.project-card
-{
-	background-color: white;
-	position: absolute;
-  	left: 50%;
-  	top: 50%;
-  	-webkit-transform: translate(-50%, -50%);
-  	box-shadow: 0px 0px 2px 2px #4F6799;
-  	color:#334364;
-  	font-size: .75em;
-  	border-radius: 5px;
-  	border-width: 2px;
-  	border-style: solid;
-  	border-color: #334364;
-  	padding: 10px;
-  	max-width: 35%;
-  	min-width: 300px;
-  	list-style-position: inside;
-}
-
-.project-card:hover
-{
-	cursor: pointer;
-}
-
-.project-card h1
-{
-	font-size: 2em;
-	text-align: center;
-	font-weight: bolder;
-}
-
-.project-card img
-{
-	display: block;
-    margin: 10px auto 10px;
-	width: 90%;
-	height: auto;
-	border-radius: 5px;
-}
-
-.project-card p:nth-of-type(1)
-{
-	text-align: center;
-	font-size: .85em;
-}
-
-.project-card p:nth-of-type(2)
-{
-	font-size: 1.25em;
-}
-
-#about-top
-{
-	width: 100%;
-}
-
-#about-top-image
-{
-	float: left;
-	width: 30%;
-	height: auto;
-}
-
-#about-top-text
-{
-	float: right;
-	width: 50%;
+	width: 60%;
+	height: 10%;
 }
 
 /*nonspreadable elements go here*/
